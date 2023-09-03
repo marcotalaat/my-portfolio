@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Admin from "./components/Admin/admin";
+import Admin from "./components/Admin/admin.js";
 function App() {
   return (
     <div className="App">
