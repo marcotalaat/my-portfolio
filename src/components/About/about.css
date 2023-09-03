@@ -1,0 +1,221 @@
+.about {
+  padding: 5rem 0;
+  min-height: 45rem;
+  overflow: hidden;
+}
+
+.about .container > h1 {
+  text-align: center;
+  color: var(--main-color);
+  margin-bottom: 30px;
+}
+.about .mid-line {
+  position: absolute;
+  width: 5px;
+  height: 500px;
+  background-color: #ededed;
+  left: 50%;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.about .mid-line .mid-line-progress {
+  position: absolute;
+  width: 5px;
+  background-color: var(--main-color);
+  left: 0;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.about .mid-line .default {
+  position: absolute;
+  left: -8px;
+  top: 10%;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: 1px solid var(--main-color);
+  z-index: 999;
+  padding: 5px;
+}
+
+.about .mid-line .default p {
+  position: absolute;
+  top: -12px;
+  color: #fff;
+  background-color: var(--main-color);
+  padding: 10px 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.about .mid-line .first p {
+  left: -30rem;
+  margin-right: 43px;
+}
+
+.about .mid-line .second {
+  top: 45%;
+}
+
+.about .mid-line .second p {
+  right: -30rem;
+  margin-left: 43px;
+}
+
+.about .mid-line .third p {
+  left: -30rem;
+  margin-right: 43px;
+}
+
+.about .mid-line .third {
+  top: 80%;
+}
+
+/* Choose */
+.choose {
+  padding: 1rem 0;
+  background-color: var(--main-color);
+}
+.choose .container > h1 {
+  color: #fff;
+  text-align: center;
+}
+.choose .single-card .icon {
+  color: var(--main-color);
+  font-size: 70px;
+  background-color: #fff;
+  padding: 10px 15px;
+  border-radius: 40px;
+}
+
+.choose .single-card h6 {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.mobile {
+  overflow: hidden;
+}
+.mobile .mobile-each p {
+  width: 350px;
+  margin: 0 10px 40px 20px;
+  background-color: var(--main-color);
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+/*Media Query for XS screen*/
+@media (max-width: 767px) {
+  .about {
+    min-height: 48rem;
+  }
+  .choose {
+    background-size: contain !important;
+  }
+  .choose .single-card .icon {
+    font-size: 40px;
+  }
+  .about .mid-line {
+    left: 5%;
+  }
+  .about .mid-line .first p,
+  .about .mid-line .third p {
+    left: 2rem;
+    width: 350px;
+    top: -4rem;
+  }
+  .about .mid-line .second p {
+    width: 350px;
+    right: -22.8rem;
+    top: -4rem;
+  }
+}
+.about-dotted-left{
+  position: absolute;
+  top: 10rem;
+  left: -6rem;
+}
+.about-dotted-right{
+  position: absolute;
+  top: 10rem;
+  right: -6rem;
+}
+
+/*Media Query for S screen*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .about {
+    min-height: 45rem;
+  }
+  .choose {
+    background-size: contain !important;
+  }
+  .choose .single-card .icon {
+    font-size: 40px;
+  }
+  .about .mid-line .first p,
+  .about .mid-line .third p {
+    left: -20rem;
+    margin-right: 43px;
+    width: 300px;
+    top: -3rem;
+  }
+  .about .mid-line .second p {
+    width: 300px;
+    right: -20rem;
+    top: -3rem;
+  }
+  .about .mid-line{
+    left: 25%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px) {
+  .about {
+    min-height: 45rem;
+  }
+}
+
+/*Media Query for Large & medium screen*/
+@media (min-width: 992px) and (max-width: 1454px) {
+  .about {
+    min-height: 45rem;
+  }
+  .about .mid-line .first p,
+  .about .mid-line .third p {
+    left: -23rem;
+    margin-right: 43px;
+    width: 350px;
+    top: -3rem;
+  }
+  .about .mid-line .second p {
+    width: 300px;
+    right: -20rem;
+    top: -3rem;
+  }
+}
