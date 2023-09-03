@@ -1,19 +1,19 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 
-import Navbar from "./components/Navbar/NavbarDesktop/navbar";
-import Landing from "./components/landing/landing";
-import About from "./components/About/about";
-import Choose from "./components/About/choose-me";
-import Works from "./components/Works/works";
-import Reviews from "./components/reviews/reviews";
-import Contact from "./components/contact/contact";
-import { Footer } from "./components/Footer/footer";
-import NavMobile from "./components/Navbar/NavbarMobile/navMobile";
-import AboutMobile from "./components/About/aboutMobile";
+import Navbar from "./Navbar/NavbarDesktop/navbar";
+import Landing from "./landing/landing";
+import About from "./About/about";
+import Choose from "./About/choose-me";
+import Works from "./Works/works";
+import Reviews from "./reviews/reviews";
+import Contact from "./contact/contact";
+import { Footer } from "./Footer/footer";
+import NavMobile from "./Navbar/NavbarMobile/navMobile";
+import AboutMobile from "./About/aboutMobile";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Admin from "./components/Admin/admin";
+import Admin from "./Admin/admin";
 
 function App() {
   const state = {
