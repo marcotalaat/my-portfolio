@@ -11,7 +11,6 @@ import Contact from "./components/contact/contact";
 import { Footer } from "./components/Footer/footer";
 import NavMobile from "./components/Navbar/NavbarMobile/navMobile";
 import AboutMobile from "./components/About/aboutMobile";
-import AOS from "aos";
 import "aos/dist/aos.css";
 import Admin from "./components/Admin/admin";
 
@@ -19,9 +18,9 @@ function App() {
   const state = {
     cv: { id: 1, count: 0 },
   };
-  AOS.init({
+/*   AOS.init({
     duration: 500,
-  });
+  }); */
 
   const [nav, setNav] = useState(true);
   const [about, setAbout] = useState(true);
