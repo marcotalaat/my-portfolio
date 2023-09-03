@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+:root {
+  --main-color: #3eb489;
+  --sec-color: #8360c3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #f4f4f4;
+  font-family: "Lilita One", cursive;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+#root, input, textarea{
+  background-color: #f4f4f4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lilita One", cursive;
+}
+h1 {
+  font-size: 4rem !important;
+}
+h2 {
+  font-size: 3rem !important;
+}
+h3 {
+  font-size: 2rem !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Scroll Design */
+*::-webkit-scrollbar {
+  width: 5px;
 }
-
-.App-link {
-  color: #61dafb;
+ 
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: #333333dd;
+  outline: 1px solid slategrey;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
