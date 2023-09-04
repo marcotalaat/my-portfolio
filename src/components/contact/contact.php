@@ -11,7 +11,7 @@ $to = 'marcotalaat355@yahoo.com';
 
 mail($email, $subjectm, $msgStr);
 
-header("location: /");
+header("location: https://marco-talaat.netlify.app");
 
 exit;
 

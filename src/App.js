@@ -42,7 +42,7 @@ function App() {
   const showAbout = about ? <AboutMobile /> : <About />;
 
   const showAdmin =
-    window.location.href === "http://localhost:3000/admin3391" ? <Admin /> : null;
+    window.location.href === "https://marco-talaat.netlify.app/admin3391" ? <Admin /> : null;
 
   return (
     <>
