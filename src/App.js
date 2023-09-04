@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar/NavbarDesktop/navbar";
@@ -41,13 +42,15 @@ function App() {
   const showNav = nav ? <NavMobile /> : <Navbar />;
   const showAbout = about ? <AboutMobile /> : <About />;
 
-  const showAdmin =
-    window.location.href === "https://marco-talaat.netlify.app/admin3391" ? <Admin /> : null;
+/*   const showAdmin =
+    window.location.href === "https://marco-talaat.netlify.app/admin3391" ? <Admin /> : null; */
 
   return (
     <>
-      {showAdmin}
+
       {showNav}
+
+      <Route path='/admin3391' render={<Admin />} />
 
       <Landing countCv={state.cv} />
       {showAbout}
