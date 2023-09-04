@@ -2,17 +2,17 @@ import React from "react";
 import Single from "./single-work";
 import './works.css'
 
-import lacostaCover from "./../../img/works/lacosta/lacosta-cover.png";
-import lacostaFull from "./../../img/works/lacosta/lacosta-full.png";
+import lacostaCover from "./../../img/works/lacosta/lacosta-cover.webp";
+import lacostaFull from "./../../img/works/lacosta/lacosta-full.webp";
 
-import powerfulCover from "./../../img/works/powerful/powerful-cover.png";
-import powerfulFull from "./../../img/works/powerful/powerfull-full.jpeg";
+import powerfulCover from "./../../img/works/powerful/powerful-cover.webp";
+import powerfulFull from "./../../img/works/powerful/powerfull-full.webp";
 
-import katamerosCover from "./../../img/works/katameros/katameros-cover.png";
-import katamerosFull from "./../../img/works/katameros/katameros-full.jpeg";
+import katamerosCover from "./../../img/works/katameros/katameros-cover.webp";
+import katamerosFull from "./../../img/works/katameros/katameros-full.webp";
 
-import globeCover from "./../../img/works/globe/globe-cover.png";
-import globeFull from "./../../img/works/globe/globe-full.png";
+import globeCover from "./../../img/works/globe/globe-cover.webp";
+import globeFull from "./../../img/works/globe/globe-full.webp";
 
 
 const Works = () => {
