@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
-import "animate.css/animate.min.css";
 
 import Navbar from "./components/Navbar/NavbarDesktop/navbar";
 import Landing from "./components/landing/landing";
@@ -46,7 +45,7 @@ function App() {
     window.location.href === "http://localhost:3000/admin3391" ? <Admin /> : null;
 
   return (
-    <>
+    <React.Fragment>
       {showAdmin}
       {showNav}
 
@@ -57,7 +56,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
-    </>
+    </React.Fragment>
   );
 }
 
