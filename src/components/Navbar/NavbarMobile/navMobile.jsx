@@ -17,14 +17,21 @@ const NavMobile = () => {
       <div className="container">
         <div className="row">
           <div className="col-12">
-            <div className="icon float-start" onClick={() => setIsClodepopup(true)}>
+            <div className="row">
+              <div className="col-4 text-left">
+            <div className="icon" onClick={() => setIsClodepopup(true)}>
               <FontAwesomeIcon icon={faBars} />
             </div>
-            <div className="logo position-relative text-center">
+              </div>
+              <div className="col-8 text-left">
+            <div className="logo position-relative">
                 <a href="#landing">
                   <img src={logo} alt="Logo of Marco Talaat" />
                 </a>
               </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </div>

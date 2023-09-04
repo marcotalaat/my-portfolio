@@ -167,7 +167,7 @@
   right: -6rem;
 }
 
-/*Media Query for S screen*/
+
 @media (min-width: 768px) and (max-width: 991px) {
   .about {
     min-height: 45rem;
@@ -201,7 +201,25 @@
   }
 }
 
-/*Media Query for Large & medium screen*/
+@media (max-width: 376px){
+  .mobile .mobile-each p{
+    width: 300px;
+  }
+  .about .mid-line{
+    height: 580px;
+  }
+}
+@media (max-width: 321px){
+  .mobile .mobile-each p{
+    width: 250px;
+  }
+  .about .mid-line{
+    height: 700px;
+  }
+  .about {
+    min-height: 56rem;
+  }
+}
 @media (min-width: 992px) and (max-width: 1454px) {
   .about {
     min-height: 45rem;
