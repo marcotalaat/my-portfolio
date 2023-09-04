@@ -22,8 +22,6 @@ export const Form = () => {
 
   return (
     <form
-      action="mailto:marcotalaat355@yahoo.com"
-      method="POST"
       ref={form}
       onSubmit={sendEmail}
       encType="text/plain"
