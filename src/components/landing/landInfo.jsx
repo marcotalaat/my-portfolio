@@ -1,5 +1,5 @@
 import React from 'react'
-import cv from "./../../img/My_CV_New.pdf";
+import cv from "./../../img/Marco_Talaat_CV.pdf";
 import { motion as m } from "framer-motion";
 import axios from "axios";
 export const LandInfo = () => {
