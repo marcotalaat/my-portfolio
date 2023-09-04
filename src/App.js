@@ -40,9 +40,6 @@ function App() {
   const showNav = nav ? <NavMobile /> : <Navbar />;
   const showAbout = about ? <AboutMobile /> : <About />;
 
-/*   const showAdmin =
-    window.location.href === "https://marco-talaat.netlify.app/admin3391" ? <Admin /> : null; */
-
   return (
     <>
 
