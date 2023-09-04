@@ -35,7 +35,11 @@
     text-align: center;
 }
 
-
+@media (max-width: 767px) {
+    .card{
+        padding: 2rem 1.5rem;
+    }
+}
 /*Media Query for S screen*/
 @media (max-width: 991px) {
     .review-wrapper{
