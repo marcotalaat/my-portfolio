@@ -45,7 +45,7 @@ function App() {
     window.location.href === "http://localhost:3000/admin3391" ? <Admin /> : null;
 
   return (
-    <React.Fragment>
+    <>
       {showAdmin}
       {showNav}
 
@@ -56,7 +56,7 @@ function App() {
       <Reviews />
       <Contact />
       <Footer />
-    </React.Fragment>
+    </>
   );
 }
 
