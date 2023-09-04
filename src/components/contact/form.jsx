@@ -9,7 +9,7 @@ export const Form = () => {
     }, 1000)
   }
   return (
-    <form action="./contact.php" method="POST" onSubmit={submit}>
+    <form action="mailto:marcotalaat355@yahoo.com" method="POST" onSubmit={submit} encType='text/plain'>
       <div className="row">
         <div className="col-md-6">
           <Input type={"text"} label={"First Name"} attr={"first-name"} name={"first_name"} />
