@@ -11,7 +11,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { motion as m } from "framer-motion";
-import menuBkg from './../../../img/menu-bkg.png'
+import menuBkg from './../../../img/menu-bkg.webp'
 
 const Popup = ({ isOpen, closed }) => {
   const style = {
