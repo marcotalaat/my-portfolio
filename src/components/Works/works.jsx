@@ -14,6 +14,9 @@ import katamerosFull from "./../../img/works/katameros/katameros-full.webp";
 import globeCover from "./../../img/works/globe/globe-cover.webp";
 import globeFull from "./../../img/works/globe/globe-full.webp";
 
+import overseasCard from "./../../img/works/overseas/overseas.webp";
+import overseasFull from "./../../img/works/overseas/overseas-full.webp";
+
 
 const Works = () => {
   const works = [
@@ -62,6 +65,16 @@ const Works = () => {
       url: "https://expertise.globe-international.com/",
       imgCover: globeCover,
       imgFull: globeFull
+    },
+    {
+      id: 5,
+      title: "Overseas",
+      description: `A blog website contains a custom post
+      type I made it using PHP code, not plugins this reduced number
+      of plugins lead to enhanced performence of the website.`,
+      url: "https://occ-egy.com/",
+      imgCover: overseasCard,
+      imgFull: overseasFull
     }
   ];
 
