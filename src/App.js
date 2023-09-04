@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Route } from "react-router-dom";
 import "./App.css";
 
 import Navbar from "./components/Navbar/NavbarDesktop/navbar";
@@ -14,7 +13,6 @@ import NavMobile from "./components/Navbar/NavbarMobile/navMobile";
 import AboutMobile from "./components/About/aboutMobile";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Admin from "./components/Admin/admin";
 
 function App() {
   const state = {
@@ -49,8 +47,6 @@ function App() {
     <>
 
       {showNav}
-
-      <Route path='/admin3391' render={<Admin />} />
 
       <Landing countCv={state.cv} />
       {showAbout}

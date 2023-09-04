@@ -4,7 +4,7 @@ export const Social = () => {
     <div className="social-icon">
       <ul>
         <li>
-          <a href="https://www.facebook.com/marco.talaat.777?mibextid=ZbWKwL" target="_blank">
+          <a href="https://www.facebook.com/marco.talaat.777?mibextid=ZbWKwL" target="_blank" rel='noreferrer'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#FFF"
@@ -17,7 +17,7 @@ export const Social = () => {
         </li>
 
         <li>
-          <a href="https://www.linkedin.com/in/marco-talaat-b349911a0" target="_blank">
+          <a href="https://www.linkedin.com/in/marco-talaat-b349911a0" target="_blank" rel='noreferrer'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#FFF"
@@ -30,7 +30,7 @@ export const Social = () => {
         </li>
 
         <li>
-          <a href="https://wa.me/+201202937338" target="_blank">
+          <a href="https://wa.me/+201202937338" target="_blank" rel='noreferrer'>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="#FFF"
