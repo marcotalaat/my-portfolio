@@ -13,7 +13,7 @@ root.render(
     <BrowserRouter>
       <Routes>
         <Route exact path="/" Component={App} />
-        <Route path="https://marco-talaat.netlify.app/admin3391" Component={Admin} />
+        <Route path="/admin3391" Component={Admin} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
