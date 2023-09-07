@@ -15,24 +15,15 @@ const NavMobile = () => {
   return (
     <div className="nav-mobile">
       <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="row">
-              <div className="col-4 text-left">
-            <div className="icon" onClick={() => setIsClodepopup(true)}>
+        <div className="nav-mobile-wrapper text-center">
+        <div className="icon d-inline float-start" onClick={() => setIsClodepopup(true)}>
               <FontAwesomeIcon icon={faBars} />
             </div>
-              </div>
-              <div className="col-8 text-left">
-            <div className="logo position-relative">
+            <div className="logo position-relative d-inline">
                 <a href="#landing">
                   <img src={logo} alt="Logo of Marco Talaat" />
                 </a>
               </div>
-
-              </div>
-            </div>
-          </div>
         </div>
       </div>
       <Popup isOpen={isClosePopup} closed={closePopup} />

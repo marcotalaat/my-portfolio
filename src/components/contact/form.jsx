@@ -9,14 +9,10 @@ export const Form = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm('service_vagt0pn', 'template_alfunel', e.target, 'olmh400L2LdpnRI3v')
-      .then((result) => {
-        setTimeout(() => {
+      .then(() => {
           alert("Thank you for your message, I will contact with you soon!");
-        }, 1000);
-      }, (error) => {
-        setTimeout(() => {
+      }, () => {
           alert("Error occure. try again, please.");
-        }, 1000);
       });
   };
 

@@ -48,7 +48,7 @@ export const LandInfo = () => {
       >
         PHP - WordPress Developer
       </m.h3>
-      <m.div className="mt-5">
+      <m.div className="mt-lg-4 landing-btn">
         <m.a
           href="#works"
           className="btn-about-me"
