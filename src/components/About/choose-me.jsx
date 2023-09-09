@@ -28,7 +28,7 @@ const Choose = () => {
       </svg>
       <section className="choose" style={background}>
         <div className="container">
-          <h1>Why you are choose me?</h1>
+          <h1>Why do you choose me?</h1>
           <div className="row mt-5">
             <div className="col-4 col-md-4" data-aos="fade-up" >
               <div className="single-card text-center">
