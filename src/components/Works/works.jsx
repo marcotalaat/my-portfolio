@@ -1,6 +1,8 @@
 import React from "react";
 import Single from "./single-work";
 import './works.css'
+import prtCover from "./../../img/works/prt/prt-cover.png";
+import prtFull from "./../../img/works/prt/prt-full.webp";
 
 import lacostaCover from "./../../img/works/lacosta/lacosta-cover.webp";
 import lacostaFull from "./../../img/works/lacosta/lacosta-full.webp";
@@ -22,6 +24,15 @@ const Works = () => {
   const works = [
     {
       id: 1,
+      title: "PRT",
+      description: `E-Commerce & Blog website with payment integration.
+      Has custom post type (Find Us page) created it using code not plugin, each post contains custom input for map location and phone number.`,
+      url: "https://prt-office.com/",
+      imgCover: prtCover,
+      imgFull: prtFull
+    },
+    {
+      id: 2,
       title: "Lacosta Realestate",
       description: `Real estate multilanguage website, using custom ajax to make
             search criteria when you choose a developer in the developer
@@ -32,7 +43,7 @@ const Works = () => {
       imgFull: lacostaFull
     },
     {
-      id: 2,
+      id: 3,
       title: "Powerful",
       description: `For powerful international company contains a custom post
       type I made it using PHP code, not plugins this reduced number
@@ -42,7 +53,7 @@ const Works = () => {
       imgFull: powerfulFull
     },
     {
-      id: 3,
+      id: 4,
       title: "Katameros",
       description: `A blog website contains a custom post
       type I made it using PHP code, not plugins this reduced number
@@ -52,7 +63,7 @@ const Works = () => {
       imgFull: katamerosFull
     },
     {
-      id: 4,
+      id: 5,
       title: "Expertise - Globe International",
       description: `A form created from scratch using PHP and MySQL contains:
       admin page has full control and displays registered users with
@@ -67,7 +78,7 @@ const Works = () => {
       imgFull: globeFull
     },
     {
-      id: 5,
+      id: 6,
       title: "Overseas",
       description: `A blog website contains a custom post
       type I made it using PHP code, not plugins this reduced number
