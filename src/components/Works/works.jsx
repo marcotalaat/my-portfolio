@@ -7,6 +7,9 @@ import prtFull from "./../../img/works/prt/prt-full.webp";
 import lacostaCover from "./../../img/works/lacosta/lacosta-cover.webp";
 import lacostaFull from "./../../img/works/lacosta/lacosta-full.webp";
 
+import iwebCover from "./../../img/works/iWeb/iWeb-cover.png";
+import iwebFull from "./../../img/works/iWeb/iWeb-full.webp";
+
 import powerfulCover from "./../../img/works/powerful/powerful-cover.webp";
 import powerfulFull from "./../../img/works/powerful/powerfull-full.webp";
 
@@ -44,6 +47,14 @@ const Works = () => {
     },
     {
       id: 3,
+      title: "iWeb",
+      description: `Company Profile website you can choose your template then reserve through a form`,
+      url: "https://iwebeg.com/",
+      imgCover: iwebCover,
+      imgFull: iwebFull
+    },
+    {
+      id: 4,
       title: "Powerful",
       description: `For powerful international company contains a custom post
       type I made it using PHP code, not plugins this reduced number
@@ -53,7 +64,7 @@ const Works = () => {
       imgFull: powerfulFull
     },
     {
-      id: 4,
+      id: 5,
       title: "Katameros",
       description: `A blog website contains a custom post
       type I made it using PHP code, not plugins this reduced number
@@ -63,7 +74,7 @@ const Works = () => {
       imgFull: katamerosFull
     },
     {
-      id: 5,
+      id: 6,
       title: "Expertise - Globe International",
       description: `A form created from scratch using PHP and MySQL contains:
       admin page has full control and displays registered users with
@@ -78,7 +89,7 @@ const Works = () => {
       imgFull: globeFull
     },
     {
-      id: 6,
+      id: 7,
       title: "Overseas",
       description: `A blog website contains a custom post
       type I made it using PHP code, not plugins this reduced number

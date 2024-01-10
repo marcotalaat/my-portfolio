@@ -29,37 +29,6 @@ const Admin = () => {
 
                     <AdminCard key={data.id} title={data.title} counter={data.counter} />
                     ))}
-{/*                     <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>Views 20</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>CV Downloaded 20</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>LaCosta 20</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>Powerfull 20</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>Katameros 20</p>
-                        </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className='admin-card'>
-                            <p>Globe 20</p>
-                        </div>
-                    </div> */}
-
                 </div>
             </div>
         </section>
